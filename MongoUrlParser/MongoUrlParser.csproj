@@ -1,6 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard1.3;netstandard1.6;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>mongo-url-parser</PackageId>
+    <Title>Mongo Url Parser</Title>
+    <Authors>bolorundurowb</Authors>
+    <Description>A library to parse mongo urls</Description>
+    <Copyright>© Copyright 2021</Copyright>
+    <PackageProjectUrl>https://github.com/bolorundurowb/mongo-url-parser</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/bolorundurowb/mongo-url-parser/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/bolorundurowb/mongo-url-parser</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>mongo, mongodb, mongoose, url, parser, database</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.3'">
