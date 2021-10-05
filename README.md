@@ -1,5 +1,7 @@
 # mongo-url-parser
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A small library to parse mongo url strings to extract the database name.
 
 Ever needed to manually run through a connection string provided by MongoDb Atlas to extract the db name? Then this library is for you.
